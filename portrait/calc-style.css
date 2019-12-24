@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+.calc {
+    background-color: black;
+    color: white;
+    width: 400px;
+}
+
+.screen {
+    padding: 50px 20px 10px 0;
+    font-size: 80px;
+    text-align: right;
+    font-family: "SF Pro Text", Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 16px;
+}
+
+.col {
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 40px;
+    font-size: 30px;
+    background-color: #333;
+    color: white;
+}
+
+.first-row {
+    background-color: #a0a0a0;
+    color: black;
+}
+
+.col:last-child {
+    background-color: #ff8d00;
+    font-size: 40px;
+}
+
+.col-2 {
+    width: 176px;
+    text-align: left;
+    text-indent: 20px;
+}
