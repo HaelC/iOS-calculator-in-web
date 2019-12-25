@@ -12,9 +12,8 @@
     padding: 50px 20px 10px 0;
     font-size: 80px;
     text-align: right;
-    font-family: "SF Pro Text", Arial, Helvetica, sans-serif;
+    font-family: "SF Pro Display", Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    
 }
 
 .row {
@@ -31,6 +30,11 @@
     font-size: 30px;
     background-color: #333;
     color: white;
+    cursor: pointer;
+}
+
+.col:active {
+    background-color: #737373;
 }
 
 .first-row {
@@ -38,9 +42,17 @@
     color: black;
 }
 
+.first-row:active {
+    background-color: #c9c9c9;
+}
+
 .col:last-child {
     background-color: #ff8d00;
     font-size: 40px;
+}
+
+.col:last-child:active {
+    background-color: #ffb586;
 }
 
 .col-2 {
