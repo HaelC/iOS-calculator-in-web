@@ -33,7 +33,7 @@
     cursor: pointer;
 }
 
-.col:active {
+.col:hover {
     background-color: #737373;
 }
 
@@ -42,7 +42,7 @@
     color: black;
 }
 
-.first-row:active {
+.first-row:hover {
     background-color: #c9c9c9;
 }
 
@@ -51,7 +51,7 @@
     font-size: 40px;
 }
 
-.col:last-child:active {
+.col:last-child:hover {
     background-color: #ffb586;
 }
 
